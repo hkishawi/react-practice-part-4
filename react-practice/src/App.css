@@ -1,0 +1,10 @@
+.home {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    color: rgba(90, 90, 90, 0.808);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
