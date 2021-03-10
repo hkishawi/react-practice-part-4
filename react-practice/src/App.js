@@ -1,16 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css"
-import Nav from "./components/Nav"
-import Tweets from "./components/Tweets"
 
 function App() {
+
+  const [] = useState({})
+  
+  const incrementer = () => {
+    counter += 1;
+    console.log(counter)
+  }
 
   return (
     <div className='App'>
       <div className='home'>
-        <h1>Hello Reactor</h1>
-        <Nav />
-        <Tweets />
+        <h1>Counter</h1>
+        <h2>{counter}</h2>
+        <button onClick={incrementer}>Click</button>
       </div>
     </div>
   );
