@@ -18,11 +18,14 @@ const Tweets = (props) => {
     ]
 return (
     <div>
-        <h1>Hello</h1>
-        <Tweet />
+        <h1> {tweets.map((tweet) => (
+            <Tweet name={tweet.name} tweet={tweet.tweet}/>
+        ))} 
+        </h1>
+        
     </div>
 
 )
 }
 
-export default Tweet;
+export default Tweets;

@@ -3,7 +3,8 @@ import React from "react"
 
 const Tweet = (props) => (
     <div>
-        <h3></h3>
+        <h1>{props.name}</h1>
+        <h1>{props.tweet}</h1>
     </div>
 )
 
